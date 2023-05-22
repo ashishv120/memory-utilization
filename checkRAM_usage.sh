@@ -18,6 +18,7 @@ echo "$output_free"
 #####################
 # Comments used and details of it
 # free command is a great way to monitor RAM usage on a server
+# output is printed based on the $3-Memory in use and $4-Memory that's free
 # free -h | awk '{print $1 " " $2 " " $3}' | awk '(NR>1)' | while read output;
 # '-h' gives the details in human readable format (converts digits to 3 digit number)
 # (NR>1) skips the first row
